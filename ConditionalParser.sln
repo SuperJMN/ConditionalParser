@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConditionalParser", "ConditionalParser\ConditionalParser.csproj", "{0D546A1B-81E9-4C2F-8F69-E3FB4872590E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConditionalParser", "ConditionalParser\ConditionalParser.csproj", "{3EEE6877-8245-48CF-9AB9-464860951635}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleParser", "SimpleParser\SimpleParser.csproj", "{8913999E-552C-4467-941C-53C5CDE95346}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConditionalParser.Tests", "ConditionalParser.Tests\ConditionalParser.Tests.csproj", "{5F56206D-0F6D-4D96-B802-060C4DED1ABD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0D546A1B-81E9-4C2F-8F69-E3FB4872590E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0D546A1B-81E9-4C2F-8F69-E3FB4872590E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0D546A1B-81E9-4C2F-8F69-E3FB4872590E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0D546A1B-81E9-4C2F-8F69-E3FB4872590E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8913999E-552C-4467-941C-53C5CDE95346}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8913999E-552C-4467-941C-53C5CDE95346}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8913999E-552C-4467-941C-53C5CDE95346}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8913999E-552C-4467-941C-53C5CDE95346}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EEE6877-8245-48CF-9AB9-464860951635}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EEE6877-8245-48CF-9AB9-464860951635}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EEE6877-8245-48CF-9AB9-464860951635}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EEE6877-8245-48CF-9AB9-464860951635}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F56206D-0F6D-4D96-B802-060C4DED1ABD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F56206D-0F6D-4D96-B802-060C4DED1ABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F56206D-0F6D-4D96-B802-060C4DED1ABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F56206D-0F6D-4D96-B802-060C4DED1ABD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,9 +1,8 @@
-﻿using System;
-using Superpower;
+﻿using Superpower;
 using Superpower.Parsers;
 using Superpower.Tokenizers;
 
-namespace SimpleParser
+namespace ConditionalParser
 {
     public class Tokenizer
     {

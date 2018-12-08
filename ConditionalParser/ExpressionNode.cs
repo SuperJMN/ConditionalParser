@@ -1,4 +1,4 @@
-﻿namespace SimpleParser
+﻿namespace ConditionalParser
 {
     public class ExpressionNode : Expression
     {

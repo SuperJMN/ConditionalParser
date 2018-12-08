@@ -1,7 +1,7 @@
 ﻿using Superpower;
 using Superpower.Parsers;
 
-namespace SimpleParser
+namespace ConditionalParser
 {
     public static class Parsers
     {

@@ -1,8 +1,7 @@
 using FluentAssertions;
-using SimpleParser;
 using Xunit;
 
-namespace ConditionalParser
+namespace ConditionalParser.Tests
 {
     public class ParserSpecs
     {

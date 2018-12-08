@@ -1,4 +1,4 @@
-﻿namespace SimpleParser
+﻿namespace ConditionalParser
 {
     public abstract class Expression : IExpression
     {

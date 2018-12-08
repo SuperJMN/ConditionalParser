@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace SimpleParser
+namespace ConditionalParser
 {
     public class FormattingVisitor : IExpressionVisitor
     {

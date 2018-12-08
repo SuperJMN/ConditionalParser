@@ -1,6 +1,6 @@
 using Superpower;
 
-namespace SimpleParser
+namespace ConditionalParser
 {
     public class Parser
     {
