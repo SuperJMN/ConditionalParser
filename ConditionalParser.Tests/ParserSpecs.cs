@@ -105,12 +105,10 @@ namespace ConditionalParser.Tests
 
         private void Test(string expr, IEnumerable<(string, bool)> values, bool expected)
         {
-            var visitor = new EvaluatorVisitor(values.ToDictionary(x => x.Item1, y => y.Item2));
-            var parser = new Parser(Tokenizer.Create());
-            var ast = parser.Parse(expr);
-            ast.Accept(visitor);
+            var evaluator = new Evaluator();
+            var value = evaluator.Evaluate(expr, values.ToDictionary(x => x.Item1, y => y.Item2));
 
-            visitor.Result.Should().Be(expected);
+            value.Should().Be(expected);
         }
     }
 }
